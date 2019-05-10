@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ce401ea97319b45802fc3a21a5dd62, type: 3}
+  m_Name: BFF - 03
+  m_EditorClassIdentifier: 
+  AppExe_Id: 0
+  ExecutingApp: 0
+  Situation_Id: 0
+  speaker: BFF
+  playerTalking: 0
+  message:
+  - Oh damn...
+  - That's kind of messed up
+  - But another interview is pretty big
+  - What are you going to do?
+  nextmessage: []
+  nextText:
+  - AppExecution: {fileID: 11400000, guid: bdd245d8478c3ee4a99e6a15b03ffb86, type: 2}
+    CallbackFuntion:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Utility+AppCallbackEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      arg: []
+  - AppExecution: {fileID: 11400000, guid: 4fdd661306b926c46a36f65834ce59fd, type: 2}
+    CallbackFuntion:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Utility+AppCallbackEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      arg: []
+  bankImpact: 0
+  relationshipImpacted: 
+  relationshipImpact: 0

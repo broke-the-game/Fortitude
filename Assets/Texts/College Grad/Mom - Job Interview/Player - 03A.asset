@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ce401ea97319b45802fc3a21a5dd62, type: 3}
+  m_Name: Player - 03A
+  m_EditorClassIdentifier: 
+  AppExe_Id: 0
+  ExecutingApp: 0
+  Situation_Id: 0
+  speaker: Mom
+  playerTalking: 1
+  message:
+  - They're just not professional enough
+  - I need a suit...and new shoes
+  nextmessage: []
+  nextText:
+  - AppExecution: {fileID: 11400000, guid: cd43e9fd5a3463d46a598c3dda436d5a, type: 2}
+    CallbackFuntion:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Utility+AppCallbackEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      arg: []
+  bankImpact: 0
+  relationshipImpacted: 
+  relationshipImpact: 0

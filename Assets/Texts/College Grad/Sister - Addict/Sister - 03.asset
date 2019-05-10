@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ce401ea97319b45802fc3a21a5dd62, type: 3}
+  m_Name: Sister - 03
+  m_EditorClassIdentifier: 
+  AppExe_Id: 0
+  ExecutingApp: 0
+  Situation_Id: 0
+  speaker: Sister
+  playerTalking: 0
+  message:
+  - I did but it was only once I swear!!! And only a little bit!
+  - but please understand I had just got laid off again and with the stress of their
+    father leaving, I couldn't help it
+  - it was too much
+  - But it was just once!! And the kids weren't even home
+  - my neighbor saw tho and must've called child services
+  - I'll get clean again I promise!
+  nextmessage: []
+  nextText:
+  - AppExecution: {fileID: 11400000, guid: 7efabfd7bac672c43a66f31032848970, type: 2}
+    CallbackFuntion:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Utility+AppCallbackEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      arg: []
+  - AppExecution: {fileID: 11400000, guid: 719bd5d544bb0c84a9b9d53b2f7e7c25, type: 2}
+    CallbackFuntion:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Utility+AppCallbackEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      arg: []
+  bankImpact: 0
+  relationshipImpacted: 
+  relationshipImpact: 0

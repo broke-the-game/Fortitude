@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2103686
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TextMeshPro/Sprite
+  m_Shader: {fileID: 4800000, guid: cf81c85f95fe47e1a27f6ae460cf182c, type: 3}
+  m_ShaderKeywords: UNITY_UI_CLIP_RECT
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4be5d8ac457422f49ac71df5910f0d24, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a92b25f83d49b9bc132d206b370281, type: 3}
+  m_Name: InfoIcon 1
+  m_EditorClassIdentifier: 
+  hashCode: -1836805472
+  material: {fileID: 2103686}
+  materialHashCode: 0
+  spriteSheet: {fileID: 2800000, guid: 4be5d8ac457422f49ac71df5910f0d24, type: 3}
+  spriteInfoList:
+  - id: 0
+    x: -5.2
+    y: -25
+    width: 259.9
+    height: 300
+    xOffset: 0
+    yOffset: 204.65
+    xAdvance: 300
+    scale: 2
+    name: News
+    hashCode: 2903887
+    unicode: 128522
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 1
+    x: 313.6
+    y: -25
+    width: 259.9
+    height: 300
+    xOffset: 0
+    yOffset: 204.65
+    xAdvance: 300
+    scale: 2
+    name: Bank
+    hashCode: 2476710
+    unicode: 128522
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 2
+    x: 601.6
+    y: -25
+    width: 259.9
+    height: 300
+    xOffset: 0
+    yOffset: 204.65
+    xAdvance: 300
+    scale: 2
+    name: Email
+    hashCode: 78594828
+    unicode: 128522
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 3
+    x: 601.6
+    y: 263.8
+    width: 259.9
+    height: 300
+    xOffset: 0
+    yOffset: 204.65
+    xAdvance: 300
+    scale: 2
+    name: Text
+    hashCode: 2979261
+    unicode: 128522
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 4
+    x: 313.6
+    y: 263.8
+    width: 259.9
+    height: 300
+    xOffset: 0
+    yOffset: 204.65
+    xAdvance: 300
+    scale: 2
+    name: Team
+    hashCode: 2979549
+    unicode: 128522
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  - id: 5
+    x: -5.2
+    y: 263.8
+    width: 259.9
+    height: 300
+    xOffset: 0
+    yOffset: 204.65
+    xAdvance: 300
+    scale: 2
+    name: Health
+    hashCode: -1510403364
+    unicode: 128522
+    pivot: {x: 0.5, y: 0.5}
+    sprite: {fileID: 0}
+  fallbackSpriteAssets: []
+--- !u!21 &1369835458
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TextMeshPro/Sprite
+  m_Shader: {fileID: 4800000, guid: cf81c85f95fe47e1a27f6ae460cf182c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats: []
+    m_Colors: []
